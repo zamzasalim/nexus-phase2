@@ -47,10 +47,6 @@ else
     echo "Cargo is already installed."
 fi
 
-# Step 7: Prompt for Prover ID
-read -p "Submit your Prover ID: " PROVER_ID
-echo "$PROVER_ID" > ~/.nexus/prover-id
-
-# Step 8: Install Nexus CLI
+# Step 7: Install Nexus CLI
 echo "Installing Nexus CLI..."
 curl https://cli.nexus.xyz/ | sh
